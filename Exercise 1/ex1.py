@@ -65,3 +65,9 @@ print('Theta found by gradient descent:\n');
 print(f'{theta}');
 print('Expected theta values (approx)\n');
 print(' -3.6303\n  1.1664\n\n');
+
+# Predict values for population sizes of 35,000 and 70,000
+predict1 = np.dot(np.array([1, 3.5]),theta);
+print(f'For population = 35,000, we predict a profit of {predict1*10000}');
+predict2 = np.dot(np.array([1, 7]) ,theta);
+print(f'For population = 70,000, we predict a profit of {predict2*10000}');
