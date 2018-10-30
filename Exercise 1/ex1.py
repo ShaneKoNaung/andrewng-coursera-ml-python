@@ -29,11 +29,11 @@ def main():
     y = y.values.reshape((len(y),1))
 
     # data shape and sample
-    print('Training set :')
+    print('Training samples :')
     print(f'{X.shape}')
     print(f'{X[:10,:]}')
     print()
-    print('Test set')
+    print('Training targets')
     print(f'{y.shape}')
     print(f'{X[:10,:]}')
     print()
